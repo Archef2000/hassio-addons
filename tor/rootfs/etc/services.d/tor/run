@@ -1,0 +1,9 @@
+#!/usr/bin/with-contenv bashio
+# ==============================================================================
+# Home Assistant Community Add-on: Tor
+# Runs the Tor daemon
+# ==============================================================================
+bashio::log.info "Starting Tor..."
+
+# Run the Tor daemon
+exec tor
